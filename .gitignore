@@ -20,3 +20,4 @@ results/tb_trace/
 
 # slurm
 slurm-*.out
+*.local.sh
