@@ -1,0 +1,22 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+
+# results / logs
+results/*
+!results/.gitkeep
+*.out
+*.err
+
+# tensorboard traces (can be huge)
+tb_trace/
+results/tb_trace/
+
+# slurm
+slurm-*.out
